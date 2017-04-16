@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/botaoCadasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Produto" />
+
+    <TextView
+        android:id="@+id/nomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nomeProduto"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/valorProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="valorProduto"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/categoriaProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="categoriaProduto"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imagemFavoritoTrue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageView
+        android:id="@+id/imagemFavoritoFalse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:srcCompat="@android:drawable/btn_star_big_off" />
+
+</LinearLayout>

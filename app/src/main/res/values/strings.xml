@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Prova-App</string>
+    <string name="mensagem_login">Faça seu Login</string>
+    <string name="mensagem_login_activity">Bem vindo ao Aplicativo da prova!</string>
+</resources>

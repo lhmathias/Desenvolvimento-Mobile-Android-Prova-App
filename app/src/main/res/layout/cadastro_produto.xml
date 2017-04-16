@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/labelCategoriaProduto"
+        android:layout_alignBottom="@+id/labelCategoriaProduto"
+        android:layout_alignStart="@+id/labelValorProduto"
+        android:text="Categoria" />
+
+    <TextView
+        android:id="@+id/labelNomeProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="37dp"
+        android:text=" Nome" />
+
+    <EditText
+        android:id="@+id/nomeProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignBaseline="@+id/labelNomeProduto"
+        android:layout_alignBottom="@+id/labelNomeProduto"
+        android:layout_alignStart="@+id/ValorProduto" />
+
+    <EditText
+        android:id="@+id/ValorProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/labelCategoriaProduto"
+        android:layout_below="@+id/nomeProduto"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/labelCategoriaProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ValorProduto"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="41dp"
+        android:layout_toEndOf="@+id/textView6"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/labelValorProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor"
+        android:layout_alignBaseline="@+id/ValorProduto"
+        android:layout_alignBottom="@+id/ValorProduto"
+        android:layout_alignStart="@+id/labelNomeProduto" />
+
+    <TextView
+        android:id="@+id/labelFavorito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/labelCategoriaProduto"
+        android:layout_marginTop="44dp"
+        android:text="Favorito" />
+
+    <CheckBox
+        android:id="@+id/favoritoCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/labelFavorito"
+        android:layout_alignBottom="@+id/labelFavorito"
+        android:layout_alignStart="@+id/labelCategoriaProduto" />
+
+    <Button
+        android:id="@+id/botaoSalvarProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/labelFavorito"
+        android:layout_below="@+id/favoritoCheckBox"
+        android:layout_marginTop="40dp"
+        android:text="Salvar"
+        android:layout_alignEnd="@+id/labelCategoriaProduto" />
+
+</RelativeLayout>
