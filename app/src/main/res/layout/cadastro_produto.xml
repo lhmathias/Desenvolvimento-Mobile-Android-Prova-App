@@ -8,8 +8,8 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/labelCategoriaProduto"
-        android:layout_alignBottom="@+id/labelCategoriaProduto"
+        android:layout_alignBaseline="@+id/categoriaProduto"
+        android:layout_alignBottom="@+id/categoriaProduto"
         android:layout_alignStart="@+id/labelValorProduto"
         android:text="Categoria" />
 
@@ -37,14 +37,14 @@
         android:id="@+id/ValorProduto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/labelCategoriaProduto"
+        android:layout_alignStart="@+id/categoriaProduto"
         android:layout_below="@+id/nomeProduto"
         android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="numberDecimal" />
 
     <EditText
-        android:id="@+id/labelCategoriaProduto"
+        android:id="@+id/categoriaProduto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ValorProduto"
@@ -68,7 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView6"
-        android:layout_below="@+id/labelCategoriaProduto"
+        android:layout_below="@+id/categoriaProduto"
         android:layout_marginTop="44dp"
         android:text="Favorito" />
 
@@ -78,7 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/labelFavorito"
         android:layout_alignBottom="@+id/labelFavorito"
-        android:layout_alignStart="@+id/labelCategoriaProduto" />
+        android:layout_alignStart="@+id/categoriaProduto" />
 
     <Button
         android:id="@+id/botaoSalvarProduto"
@@ -88,6 +88,6 @@
         android:layout_below="@+id/favoritoCheckBox"
         android:layout_marginTop="40dp"
         android:text="Salvar"
-        android:layout_alignEnd="@+id/labelCategoriaProduto" />
+        android:layout_alignEnd="@+id/categoriaProduto" />
 
 </RelativeLayout>
